@@ -13,12 +13,17 @@ import {
   NestedCheckbox,
   StarRatingPage,
   TrafficLight,
+  TodoList,
 } from "./Pages";
 
 // Add a new machine coding page here: it gets a route and a navbar link.
 export const routes = [
   { path: "/accordian", label: "Accordian", element: <Accordian /> },
-  { path: "/nested-comments", label: "Nested Comments", element: <NestedComments /> },
+  {
+    path: "/nested-comments",
+    label: "Nested Comments",
+    element: <NestedComments />,
+  },
   { path: "/image-slider", label: "Image Slider", element: <ImageSlider /> },
   { path: "/pagination", label: "Pagination", element: <Pagination /> },
   { path: "/live-chat", label: "Live Chat", element: <LiveChat /> },
@@ -31,4 +36,5 @@ export const routes = [
   { path: "/nested-checkbox", label: "Checkbox", element: <NestedCheckbox /> },
   { path: "/star-rating", label: "Rating", element: <StarRatingPage /> },
   { path: "/traffic-light", label: "Traffic Light", element: <TrafficLight /> },
+  { path: "/todo-list", label: "Todo List", element: <TodoList /> },
 ];

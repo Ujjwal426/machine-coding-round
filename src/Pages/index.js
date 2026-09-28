@@ -13,6 +13,7 @@ import ChipInput from "./ChipInput";
 import NestedCheckbox from "./NestedCheckbox";
 import StarRatingPage from "./StarRatingPage";
 import TrafficLight from "./TrafficLight";
+import TodoList from "./TodoList";
 
 export {
   Home,
@@ -30,4 +31,5 @@ export {
   NestedCheckbox,
   StarRatingPage,
   TrafficLight,
+  TodoList,
 };
