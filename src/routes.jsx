@@ -1,0 +1,34 @@
+import {
+  Accordian,
+  NestedComments,
+  ImageSlider,
+  Pagination,
+  LiveChat,
+  Search,
+  CricketScore,
+  TabForm,
+  ProgressBar,
+  OtpInput,
+  ChipInput,
+  NestedCheckbox,
+  StarRatingPage,
+  TrafficLight,
+} from "./Pages";
+
+// Add a new machine coding page here: it gets a route and a navbar link.
+export const routes = [
+  { path: "/accordian", label: "Accordian", element: <Accordian /> },
+  { path: "/nested-comments", label: "Nested Comments", element: <NestedComments /> },
+  { path: "/image-slider", label: "Image Slider", element: <ImageSlider /> },
+  { path: "/pagination", label: "Pagination", element: <Pagination /> },
+  { path: "/live-chat", label: "Live Chat", element: <LiveChat /> },
+  { path: "/search", label: "Search", element: <Search /> },
+  { path: "/cricket-score", label: "Cricket", element: <CricketScore /> },
+  { path: "/tab-form", label: "Tab Form", element: <TabForm /> },
+  { path: "/progress-bar", label: "Progress Bar", element: <ProgressBar /> },
+  { path: "/otp-input", label: "Otp", element: <OtpInput /> },
+  { path: "/chip-input", label: "Chips Input", element: <ChipInput /> },
+  { path: "/nested-checkbox", label: "Checkbox", element: <NestedCheckbox /> },
+  { path: "/star-rating", label: "Rating", element: <StarRatingPage /> },
+  { path: "/traffic-light", label: "Traffic Light", element: <TrafficLight /> },
+];

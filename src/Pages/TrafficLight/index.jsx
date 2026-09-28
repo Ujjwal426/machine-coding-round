@@ -3,8 +3,8 @@ import React, { useEffect, useState } from "react";
 // Real-world order: red -> green -> yellow -> red
 const config = [
   { color: "red", time: 4000 },
-  { color: "green", time: 3000 },
   { color: "yellow", time: 1000 },
+  { color: "green", time: 3000 },
 ];
 
 const TrafficLight = () => {
