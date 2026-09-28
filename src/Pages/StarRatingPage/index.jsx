@@ -9,13 +9,15 @@ const StarRatingPage = () => {
   };
 
   return (
-    <div>
-      <h1>Star Rating</h1>
-      <StarRating
-        size={5}
-        onChange={handleRatingChange}
-        rating={currentRating}
-      />
+    <div className="flex justify-center mt-2">
+      <div className="w-full max-w-md">
+        <h1>Star Rating</h1>
+        <StarRating
+          size={5}
+          handleRatingChange={handleRatingChange}
+          rating={currentRating}
+        />
+      </div>
     </div>
   );
 };

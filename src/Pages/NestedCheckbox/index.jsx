@@ -99,7 +99,6 @@ const NestedCheckbox = () => {
 
   const updateChildren = (item, newState, isChecked) => {
     item?.children?.forEach((element) => {
-      console.log("element", element?.id);
       newState[element?.id] = isChecked;
       if (element?.children) updateChildren(element, newState, isChecked);
     });

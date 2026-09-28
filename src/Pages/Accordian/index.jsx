@@ -21,17 +21,18 @@ const Accordian = () => {
   return (
     <div className="flex justify-center mt-2">
       <div className="w-full max-w-md">
-        {data?.map((item, index) => (
-          <AccordianItem
-            key={index}
-            title={item.title}
-            content={item.content}
-            isOpen={isOpen === index}
-            setIsOpen={() => {
-              setIsOpen(isOpen === index ? null : index);
-            }}
-          />
-        ))}
+        {data?.map((item, index) => {
+          return (
+            <AccordianItem
+              title={item.title}
+              content={item.content}
+              isOpen={isOpen === index}
+              setIsOpen={() => {
+                setIsOpen(isOpen === index ? null : index);
+              }}
+            />
+          );
+        })}
       </div>
     </div>
   );
