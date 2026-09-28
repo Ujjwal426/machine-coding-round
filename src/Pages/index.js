@@ -14,6 +14,7 @@ import NestedCheckbox from "./NestedCheckbox";
 import StarRatingPage from "./StarRatingPage";
 import TrafficLight from "./TrafficLight";
 import TodoList from "./TodoList";
+import Timer from "./Timer";
 
 export {
   Home,
@@ -32,4 +33,5 @@ export {
   StarRatingPage,
   TrafficLight,
   TodoList,
+  Timer,
 };

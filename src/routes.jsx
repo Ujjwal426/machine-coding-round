@@ -14,6 +14,7 @@ import {
   StarRatingPage,
   TrafficLight,
   TodoList,
+  Timer,
 } from "./Pages";
 
 // Add a new machine coding page here: it gets a route and a navbar link.
@@ -37,4 +38,5 @@ export const routes = [
   { path: "/star-rating", label: "Rating", element: <StarRatingPage /> },
   { path: "/traffic-light", label: "Traffic Light", element: <TrafficLight /> },
   { path: "/todo-list", label: "Todo List", element: <TodoList /> },
+  { path: "/timer", label: "Timer", element: <Timer /> },
 ];
