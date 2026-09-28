@@ -25,6 +25,7 @@ const StarRating = ({ size = 5, rating = 0, handleRatingChange }) => {
         const value = index + 1;
         const isFull = currentRating >= value;
         const isHalf = currentRating >= value - 0.5 && currentRating < value;
+
         return (
           <span
             key={value}
@@ -33,9 +34,7 @@ const StarRating = ({ size = 5, rating = 0, handleRatingChange }) => {
             onClick={(event) => handleClick(event, value)}
             className="relative cursor-pointer text-3xl"
           >
-            <span className="text-gray-300">★</span>
-
-            {/* Filled / half-filled star */}
+            <span className="text-gray-400">★</span>
             {(isFull || isHalf) && (
               <span
                 className="absolute left-0 top-0 overflow-hidden text-yellow-400"
