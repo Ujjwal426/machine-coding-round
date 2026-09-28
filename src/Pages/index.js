@@ -12,6 +12,7 @@ import OtpInput from "./Otp";
 import ChipInput from "./ChipInput";
 import NestedCheckbox from "./NestedCheckbox";
 import StarRatingPage from "./StarRatingPage";
+import TrafficLight from "./TrafficLight";
 
 export {
   Home,
@@ -28,4 +29,5 @@ export {
   ChipInput,
   NestedCheckbox,
   StarRatingPage,
+  TrafficLight,
 };

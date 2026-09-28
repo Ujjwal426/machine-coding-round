@@ -14,6 +14,7 @@ import {
   ChipInput,
   NestedCheckbox,
   StarRatingPage,
+  TrafficLight,
 } from "./Pages";
 import { CustomHeader } from "./components";
 
@@ -36,6 +37,7 @@ function App() {
         <Route path="/chip-input" element={<ChipInput />} />
         <Route path="/nested-checkbox" element={<NestedCheckbox />} />
         <Route path="/star-rating" element={<StarRatingPage />} />
+        <Route path="/traffic-light" element={<TrafficLight />} />
       </Routes>
     </BrowserRouter>
   );

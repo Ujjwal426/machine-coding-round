@@ -67,6 +67,10 @@ const CustomHeader = () => {
           <Link to="/star-rating" className="text-white hover:text-blue-600">
             Rating
           </Link>
+
+          <Link to="/traffic-light" className="text-white hover:text-blue-600">
+            Traffic Light
+          </Link>
         </nav>{" "}
       </div>
     </header>
